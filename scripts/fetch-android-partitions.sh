@@ -4,7 +4,7 @@ set -euo pipefail
 
 REPO="${ANDROID_PARTITIONS_REPO:-thespider2/droidian-images-xiaomi-pipa}"
 BRANCH="${ANDROID_PARTITIONS_BRANCH:-trixie}"
-BASE="https://github.com/${REPO}/raw/refs/heads/${BRANCH}/android-partitions"
+BASE="https://media.githubusercontent.com/media/thespider2/droidian-images-xiaomi-pipa/ff8bdbefcffa86f9e791e7fba4a268181279e0fe/android-partitions"
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 DEST="${ROOT}/overlay/system/var/lib/lxc/android"
