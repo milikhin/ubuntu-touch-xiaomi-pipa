@@ -7,7 +7,7 @@ deviceinfo_codename="pipa"
 
 deviceinfo_arch="aarch64"
 
-deviceinfo_ubuntu_touch_release="26.04-1.x"
+deviceinfo_ubuntu_touch_release="24.04-2.x"
 
 deviceinfo_halium_version="13"
 

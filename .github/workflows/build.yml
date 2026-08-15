@@ -57,7 +57,7 @@ jobs:
       - name: Prepare flashable
         run: |
           DEVICE="$(source deviceinfo && echo $deviceinfo_codename)"
-          ./build/fetch-and-prepare-latest-ota.sh "26.04-1.x/arm64/android9plus/daily" "$DEVICE" ota
+          ./build/fetch-and-prepare-latest-ota.sh "24.04-2.x/arm64/android9plus/daily" "$DEVICE" ota
           mkdir -p out_flashable
           ./build/system-image-from-ota.sh ota/ubuntu_command out_flashable
       - name: Upload flashable artifacts
